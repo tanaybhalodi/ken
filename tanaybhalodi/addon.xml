@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="tanaybhalodi" name="tanaybhalodi Repository" version="2.0.1" provider-name="tanaybhalodi">
+    <extension point="xbmc.addon.repository" name="tanaybhalodi Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/tanaybhalodi/ken/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tanaybhalodi/ken/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tanaybhalodi/ken/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>tanaybhalodi Repository for Kodi</summary>
+        <description>A Repository for Streaming Add-ons of Indian OTT Providers</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <clearlogo>icon.png</clearlogo>
+        </assets>
+    </extension>
+</addon>
